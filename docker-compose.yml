@@ -14,8 +14,6 @@ services:
       - "3306:3306"
     volumes:
       - ./data:/var/lib/mysql
-    networks:
-      - my_network
 
-networks:
-  my_network:
+volumes:
+  mysql-data
