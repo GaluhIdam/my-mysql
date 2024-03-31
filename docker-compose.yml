@@ -5,10 +5,7 @@ services:
     image: mysql:latest
     container_name: mysql
     environment:
-      MYSQL_DATABASE: db
-      MYSQL_USER: saynotodream
-      MYSQL_PASSWORD: 0p3nw0rld
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: 0p3nw0rld
     ports:
       - "6033:3306"
     volumes:
