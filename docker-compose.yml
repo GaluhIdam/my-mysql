@@ -10,9 +10,7 @@ services:
       MYSQL_USER: saynotodream
       MYSQL_PASSWORD: 0p3nw0rld
     ports:
-      - "3306:3306"
-    expose:
-      - "6033"
+      - "6033:3306"
     volumes:
       - ./data:/var/lib/mysql
     networks:
