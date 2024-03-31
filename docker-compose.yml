@@ -6,7 +6,6 @@ services:
     container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: 0p3nw0rld
-      MYSQL_DATABASE: test
       MYSQL_USER: saynotodream
       MYSQL_PASSWORD: 0p3nw0rld
     ports:
