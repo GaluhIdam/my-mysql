@@ -17,4 +17,3 @@ services:
 networks:
   network-mysql:
     driver: bridge
-    name: network-mysql
