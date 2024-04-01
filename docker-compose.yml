@@ -8,7 +8,7 @@ services:
       MYSQL_ROOT_USER: saynotodream
       MYSQL_ROOT_PASSWORD: 0p3nw0rld
     ports:
-      - "3306:3306"
+      - "6033:3306"
     volumes:
       - ./data:/var/lib/mysql
     networks:
